@@ -106,8 +106,11 @@ function JobItem({ job }: { job: IJob }) {
         {(cities?.[0] || countries?.[0]) && (
           <Typography variant="h5" sx={{ mt: 0.5, color: "text.secondary" }}>
             {getUnicodeFlagIcon(`${isoCode}`)}
-            {cities?.[0] && cities?.[0]?.name}
-            {countries?.[0] && countries?.[0]?.name}
+            {cities?.[0]
+              ? cities?.[0]?.name
+              : countries?.[0]
+              ? countries?.[0]?.name
+              : ""}
           </Typography>
         )}
         {remotes?.length > 0 && (
