@@ -2,6 +2,9 @@ import { useState } from "react";
 import { Outlet } from "react-router-dom";
 // material
 import { experimentalStyled as styled } from "@material-ui/core/styles";
+// apollo client
+import { client } from "../apolloClient/client";
+import { ApolloProvider } from "@apollo/client";
 
 // ----------------------------------------------------------------------
 
@@ -31,10 +34,12 @@ const MainStyle = styled("div")(({ theme }) => ({
 
 export default function RootLayout() {
   return (
-    <RootStyle>
-      <MainStyle>
-        <Outlet />
-      </MainStyle>
-    </RootStyle>
+    <ApolloProvider client={client}>
+      <RootStyle>
+        <MainStyle>
+          <Outlet />
+        </MainStyle>
+      </RootStyle>
+    </ApolloProvider>
   );
 }
