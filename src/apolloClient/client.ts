@@ -7,7 +7,7 @@ import {
 import { RestLink } from "apollo-link-rest";
 
 const httpLink = new HttpLink({
-  uri: "https://48p1r2roz4.sse.codesandbox.io",
+  uri: "https://api.graphql.jobs/",
 });
 
 export const client = new ApolloClient({
