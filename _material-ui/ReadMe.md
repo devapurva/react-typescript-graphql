@@ -17,26 +17,26 @@ Your system must have Node v10.16.3+.
 #### [`./pages`](https://github.com/devapurva/react-typescript-graphql/tree/master/_material-ui/src/pages)
 
 All pages are listed in this folder. 
-~ PageOne: Job Listing components. 
-~ Page404: 404 page for unlisted routes
+- PageOne: Job Listing components. 
+- Page404: 404 page for unlisted routes
 
 #### [`./components`](https://github.com/devapurva/react-typescript-graphql/tree/master/_material-ui/src/components)
 
 All resuable components/fragments can be found in this folder. 
-~ @material-extend: Base Material components imported from [Material UI](https://mui.com/)
-~ animate: Button, Modal, Text, etc animations components. 
-~ settings: components to handle theme, rtl, etc. 
+- @material-extend: Base Material components imported from [Material UI](https://mui.com/)
+- animate: Button, Modal, Text, etc animations components. 
+- settings: components to handle theme, rtl, etc. 
 
 #### [`./apolloClient`](https://github.com/devapurva/react-typescript-graphql/tree/master/_material-ui/src/apolloClient)
 
 Apollo Client base setup along with APIs.
-~ `./api`[https://github.com/devapurva/react-typescript-graphql/tree/master/_material-ui/src/apolloClient/api]: Job Listing api query. 
+- `./api`[https://github.com/devapurva/react-typescript-graphql/tree/master/_material-ui/src/apolloClient/api]: Job Listing api query. 
 
 #### [`./routes`](https://github.com/devapurva/react-typescript-graphql/tree/master/_material-ui/src/routes)
 
 All Routes and related logic is handled here. 
-~ path.ts: Common JSON for scalibility and readibility. 
-~ index.tsx: Lazy loading, suspense fallback, routes handling. 
+- path.ts: Common JSON for scalibility and readibility. 
+- index.tsx: Lazy loading, suspense fallback, routes handling. 
 
 
 ## Learn More
