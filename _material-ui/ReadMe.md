@@ -32,7 +32,6 @@ All resuable components/fragments can be found in this folder.
 Apollo Client base setup along with APIs.
 ~ `./api`[https://github.com/devapurva/react-typescript-graphql/tree/master/_material-ui/src/apolloClient/api]: Job Listing api query. 
 
-
 #### [`./routes`](https://github.com/devapurva/react-typescript-graphql/tree/master/_material-ui/src/routes)
 
 All Routes and related logic is handled here. 
